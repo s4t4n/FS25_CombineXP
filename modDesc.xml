@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="92">
+<modDesc descVersion="104">
     <author>yumi</author>
-    <version>1.0.0.0</version>        
+    <version>1.0.0.1</version>        
     <title>
         <en>Combine XPerience</en>
     </title>
@@ -68,16 +68,7 @@ Nuove caratteristiche:
 - Limite di velocità di raccolta in base alla quantità di materiale raccolto, al tipo di coltura, alle prestazioni della mietitrebbia (in base alla potenza) e all'umidità del raccolto a seconda dell'ora del giorno
 - Visualizza diversi dati nell'HUD durante la raccolta: capacità del materiale (T/h), carico della mietitrebbia (%), resa istantanea (T/ha)
 combineXP.xml file available in modSettings folder can be edited to enable/disable specific behavior for your own convenience
-]]></it>   
-	    <pt><![CDATA[
-Se estás cansado de ceifar as searas a 10 kph, este mod é para ti.
-O objectivo deste mod é apresentar uma nova experiência aquando de ceifar no jogo mais aproximado da vida real.
-Novas funções:
-- Capacidade como na vida real de acionar o tambor e a barra de corte de maneira independente
-- Velocidade de ceifar limitada, baseada na quantidade de material recolhida, tipo de cultura, desempenho da ceifeira (basedo na potência) e humidade na seara dependendo da altura do dia
-- Exive vários dados no ecrã enquanto ceida: quantidade de material (T/h), carga da ceifeira (%), rendimento instantâneo (T/ha)
-O ficheiro combineXP.xml está disponível na pasta modSettings para poderes editar comportamentos especificos á tua própria conveniência
-]]></pt>	    
+]]></it>
     </description>
     <iconFilename>icon_CombineXP.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -95,7 +86,6 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <pl>Najpierw musisz uruchomić młócarnię w kombajnie</pl>
             <br>Você deve primeiro iniciar o sistema de debulha</br>
 	        <it>Avviare prima il sistema di trebbiatura della mietitrebbia!</it>
-            <pt>Primeiro inicia o tambor de debulha</pt>
         </text>
         <text name="warning_highMoistureAtThisTime">
             <fr>L'humidité de la culture est élevée à cette heure de la journée et réduit la vitesse de moisson</fr>
@@ -105,7 +95,6 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <pl>Wilgotność uprawy jest wysoka o tej porze dnia przez co zmniejszy się prędkość pracy kombajnu</pl>
             <br>A umidade da lavoura é alta nesta hora do dia reduzindo a velocidade da colheitadeira</br>
 	        <it>L'umidità del raccolto è elevata a quest'ora del giorno e riduce il limite di velocità di raccolta.</it>
-            <pt>A seara ainda tem a humidade muito alta nesta altura do dia, a ceifeira irá andar devagar</pt>
         </text>
         <text name="combineGameplaySetting">
             <fr>Gameplay</fr>
@@ -114,7 +103,6 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <ru>Игровой процесс</ru>
             <pl>rozgrywka</pl>
             <it>Gioco</it>
-            <pt>Modo de jogo</pt>
         </text>
         <text name="combineGameplayTooltip">
             <fr>Arcade = 100% boost / Normal = 20% boost / Réaliste = Pas de boost</fr>
@@ -124,7 +112,6 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <pl>SZręcznościowy = 100% boost / Normalny = 20% boost / Realistyczny = Brak boost</pl>
             <br>Videogame = 100% boost / Normal = 20% boost / Realista = No boost</br>
             <it>Arcade = potenziamento del 100% / Normale = potenziamento del 20% / Realistico = nessun potenziamento</it>
-            <pt>Simples = 100% Ganho / Normal = 20% Ganho / Realista = sem ganho</pt>
         </text>
 	    <text name="gameplayArcade">
             <fr>Arcade</fr>
@@ -134,7 +121,6 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <pl>Zręcznościowy</pl>
             <br>Videogame</br>
 	        <it>Arcade</it>
-            <pt>Simples</pt>
         </text>
         <text name="gameplayNormal">
             <fr>Normal</fr>
@@ -144,7 +130,6 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <pl>Normlany</pl>
             <br>Normal</br>
 	        <it>Normale</it>
-            <pt>Normal</pt>
         </text>
         <text name="gameplayRealistic">
             <fr>Réaliste</fr>
@@ -154,7 +139,6 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <pl>Realistyczny</pl>
             <br>Realista</br>
 	        <it>Realistico</it>
-            <pt>Realista</pt>
         </text>
         <text name="combinePowerSetting">
             <fr>Limite de puissance moteur</fr>
@@ -164,8 +148,7 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <pl>Ograniczenie mocy silnika</pl>
             <br>Limite de potência do motor</br>
 	        <it>Limite di potenza del motore</it>
-            <pt>Limte da Potência do motor</pt>
-	</text>
+        </text>
         <text name="combinePowerTooltip">
             <fr>Tient compte de la puissance du moteur pour limiter la vitesse de récolte</fr>
             <en>Consider engine power to limit harvesting speed</en>
@@ -174,7 +157,6 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <pl>Uwzględnij moc silnika, aby ograniczyć prędkość zbioru</pl>
             <br>Considere a potência do motor para limitar a velocidade de colheita</br>
 	        <it>Considerare la potenza del motore per limitare la velocità di raccolta</it>
-            <pt>Considere a potência do motor para limitar a velocidade da ceifieira</pt>
         </text>
         <text name="combineDaytimeSetting">
             <fr>Limite de l'heure de la journée</fr>
@@ -184,7 +166,6 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <pl>Limit dzienny</pl>
             <br>Limite diurno</br>
             <it>Limite diurno</it>
-            <pt>Limite diurno</pt>
         </text>
         <text name="combineDaytimeTooltip">
             <fr>Tient compte de l'heure de la journée pour limiter la vitesse afin de simuler l'humidité des cultures</fr>
@@ -194,7 +175,6 @@ O ficheiro combineXP.xml está disponível na pasta modSettings para poderes edi
             <pl>Zastanów się nad porą dnia, aby ograniczyć prędkość, aby symulować wilgotność upraw</pl>
             <br>Considere o dia para limitar a velocidade para simular a umidade da cultura</br>
             <it>Considera il giorno per limitare la velocità per simulare l'umidità del raccolto</it>
-            <pt>Considere a altura do dia para limitar a velocidade afim de simular a humidade da seara</pt>
         </text>
     </l10n>
 </modDesc>
