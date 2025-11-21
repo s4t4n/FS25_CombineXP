@@ -70,11 +70,11 @@ function CombineXP:loadMaterialQtyFx()
 
         realFruitType.mrMaterialQtyFx = Utils.getNoNil(getXMLFloat(xmlFile, fruitTypeName .. "#mrMaterialQtyFx"), 1);
 
-        for _, v in pairs(g_fruitTypeManager:getFruitTypes()) do
-            if realFruitType.name:lower() == v.name:lower() then
-                v.mrMaterialQtyFx = realFruitType.mrMaterialQtyFx
-            end
-        end
+        -- for _, v in pairs(g_currentMission.fruitTypeManager.fruitTypes) do
+        --     if realFruitType.name:lower() == v.name:lower() then
+        --         v.mrMaterialQtyFx = realFruitType.mrMaterialQtyFx
+        --     end
+        -- end
 
         i = i + 1;
     end

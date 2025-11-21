@@ -125,7 +125,7 @@ function xpCombine:onLoad(savegame)
     if basePerf <= 0 then
     -- Then motorConfiguration hp
         local vehicleName = self:getFullName()
-        local coef = 1.2 -- It was 1.5 on FS19, but 1.2 seems better
+        local coef = 1 -- It was 1.5 on FS19, but 1 seems OK
         local keyCategory = "vehicle.storeData.category"
         local category = self.xmlFile:getValue(keyCategory)
         if category == "forageHarvesters" or category == "forageHarvesterCutters" then
@@ -537,6 +537,7 @@ function xpCombine:getMoistureDependantSpeed(fruitType, defaultSpeedLimit)
         fruitType == FruitType.CANOLA or
         fruitType == FruitType.SOYBEAN or
         fruitType == FruitType.SUNFLOWER or
+        fruitType == FruitType.SILAGEMAIZE or
         fruitType == FruitType.MAIZE then
         local time = g_seasons.weather.cropMoistureContent
         speed = g_combinexp.moistureDependantSpeed.default:get(time)
