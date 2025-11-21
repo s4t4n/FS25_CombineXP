@@ -33,4 +33,6 @@
     <fruitType name="vetchRye"   	literPerSqm="0.8250" seedUsagePerSqm="0.0290" windrowLiterPerSqm="4.2"  mrMaterialQtyFx="1.05" />    <!-- reference crop for materialQty compared to yield. windrow = about 4T per Ha -->
     <fruitType name="poppy"   		literPerSqm="0.5250" seedUsagePerSqm="0.0050" windrowLiterPerSqm="4.8"  mrMaterialQtyFx="1.1" />    <!-- reference crop for materialQty compared to yield. windrow = about 4T per Ha -->
     <fruitType name="onion"   		literPerSqm="3.5250" seedUsagePerSqm="0.2050" />    <!-- reference crop for materialQty compared to yield. windrow = about 4T per Ha -->
+    <fruitType name="spinach"   	literPerSqm="3.5250" seedUsagePerSqm="0.2050" />    <!-- reference crop for materialQty compared to yield. windrow = about 4T per Ha -->
+    <fruitType name="parsnip"   	literPerSqm="3.5250" seedUsagePerSqm="0.2050" />    <!-- reference crop for materialQty compared to yield. windrow = about 4T per Ha -->
 </fruitTypes>
